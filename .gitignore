@@ -1,0 +1,8 @@
+__pycache__/
+checkpoints
+Data
+lightning_logs
+evals
+MBA
+tests
+.DS_Store
