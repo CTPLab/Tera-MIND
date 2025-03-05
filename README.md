@@ -3,7 +3,7 @@
 <div align="center">
 
 [![a](https://img.shields.io/badge/Project-TeraMIND-blue)](https://musikisomorphie.github.io/Tera-MIND.html)
-[![arXiv](https://img.shields.io/badge/arXiv-xxx-red)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2503.01220-red)](https://arxiv.org/abs/2503.01220)
 [![a](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
 </div>
 
@@ -124,9 +124,18 @@ In addition, we provide example generation results in the format of WSIs, which 
 - [WSIs](https://zenodo.org/records/14745019/files/WSI.zip?download=1)
 
 ## Citation
+If you find this repository helpful for your research, we would appreciate your citation of our study.
 
 ```
-TODO
+@misc{wu2025teramindterascalemousebrain,
+      title={Tera-MIND: Tera-scale mouse brain simulation via spatial mRNA-guided diffusion}, 
+      author={Jiqing Wu and Ingrid Berg and Yawei Li and Ender Konukoglu and Viktor H. Koelzer},
+      year={2025},
+      eprint={2503.01220},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.01220}, 
+}
 ```
 
 
