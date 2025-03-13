@@ -41,8 +41,7 @@ Please check [environment.yml](environment.yml) for more details.
 
 ## Training data 
 
-Upcoming soon.
-The whole training data will be available in [Brain Image Library](https://www.brainimagelibrary.org/).
+The whole training data can be downloaded via [Brain Image Library](https://download.brainimagelibrary.org/64/a7/64a7615a166fc0c3/).
 
 ## Train the Tera-MIND model 
 
