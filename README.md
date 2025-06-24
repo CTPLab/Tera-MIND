@@ -28,14 +28,14 @@ Then, install the necessary packages as follows
 ```
 pip install torch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 --index-url https://download.pytorch.org/whl/cu118
 
-pip install pytorch-lightning==2.5.0 zarr==2.14.1 scipy opencv-python matplotlib seaborn pandas einops timm cellpose sparse 
+pip install pytorch-lightning==2.5.0 zarr==2.14.1 scipy opencv-python matplotlib seaborn pandas einops timm cellpose sparse tensorboardX
 
 pip install git+https://github.com/openai/CLIP.git
 
 conda install conda-forge::pyvips
 ```
 
-Note that higher cuda versions (>`cu118`) should also work. The compatible version of zarr package is rather limited, e.g., `2.14`. To avoid dependency issues, it is recommended to install `pyvips` via conda. 
+Note that higher cuda versions (>`cu118`) should also work. The compatible version of zarr package is rather limited, e.g., `2.14`, and make sure `numcodecs == 0.15.* numpy == 1.26.*`. To avoid dependency issues, it is recommended to install `pyvips` via conda. 
 Please check [environment.yml](environment.yml) for more details.
 
 
